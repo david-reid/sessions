@@ -1,0 +1,61 @@
+body {
+    background-color: lightgray;
+    
+}
+#container {
+    background: linear-gradient(to right , #24243e, #8c86ce , #24243e);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 544px;
+    width: 1088px;
+
+} 
+#user-score, #comp-score {
+    color: white;
+    position: absolute;
+    top: 12px;
+    font: 40px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#user-score{
+    left: 262px;
+}
+#comp-score{
+    left: 806px;
+}
+img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 540px;
+    width: 410px;
+
+    
+}
+#user-paddle, #comp-paddle {
+    position: absolute;
+    background: white;
+    height: 72px;
+    width: 10px;
+    
+    
+}
+#comp-paddle {
+    margin-left: 1048px;
+}
+#user-paddle {
+    margin-left: 30px;
+}
+#ball{
+    background-color: rgb(255, 128, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+}

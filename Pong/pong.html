@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" type="text/css" href="game.css">
+   
+
+</head>
+<body>
+    <canvas id="canvas" style="display:none"></canvas>
+    <div id="start" style="display:block">
+    <a href="#" onclick="startGame()">Start Game</a>
+</div>
+   
+
+<div id="game-over" style="display:none">
+        <h1>Game Over</h1>
+    <a href="#" onclick="startGame()">Start Game</a>
+</div>
+
+
+    <div></div>
+    <div id="container" style="display:none;">
+        <div id="user-score">0</div>
+        <div id="comp-score">0</div>
+         <img src="Dotted-line.png" alt="">
+         <div id="user-paddle"></div>
+         <div id="comp-paddle"></div>
+         <div id="ball"></div>
+    </div>
+
+</body>
+<script src='script.js'></script>
+</html>
